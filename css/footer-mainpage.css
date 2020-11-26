@@ -1,0 +1,52 @@
+footer {
+    display: flex;
+    justify-content: center;
+}
+
+section {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+h2 {
+    font-size: 44px;
+    text-align: center;
+    font-style: normal;
+}
+
+h3 {
+    font-size: 30px;
+    text-align: center;
+    font-style: normal;
+}
+
+.footer-follow {
+    margin-left: 100px;
+    margin-right: 100px;
+    text-align: center;
+}
+
+#follow-link-facebook,
+#follow-link-twitter,
+#follow-link-instagram {
+    background-color: whitesmoke;
+}
+
+.footer-link-img {
+    width: 25px;
+    height: 25px;
+}
+
+@media (min-width: 1225px) {
+    section {
+        flex-direction: row;
+        align-items: flex-end;
+    }
+
+    h2 {
+        font-size: 44px;
+        text-align: left;
+        font-style: normal;
+    }
+}

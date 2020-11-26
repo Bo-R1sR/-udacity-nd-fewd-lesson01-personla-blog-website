@@ -1,0 +1,31 @@
+.header-body-footer-separation {
+    width: 80%;
+    height: 10px;
+    background-color: crimson;
+    border-radius: 5px;
+    margin-top: 10px;
+    margin-bottom: 15px;
+}
+
+.div-intro-outro-line {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.main-intro {
+    display: flex;
+    justify-content: flex-start;
+    width: 80%;
+    font-size: 50px;
+    color: seagreen;
+}
+
+article {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 20px;
+}
+
+
+

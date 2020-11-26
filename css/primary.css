@@ -1,0 +1,22 @@
+@import 'body-style.css';
+@import 'header-logo.css';
+@import 'header-navigation.css';
+@import 'links.css';
+@import 'card-mainpage.css';
+@import 'card-detailpage.css';
+@import 'footer-mainpage.css';
+
+
+@font-face {
+    font-family: 'AR BONNIE';
+    src: url('../fonts/AR-BONNIE-FONT.ttf');
+}
+
+body {
+    font-family: 'AR BONNIE', sans-serif;
+    background-color: whitesmoke;
+}
+
+
+
+
